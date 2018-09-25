@@ -2,7 +2,7 @@ $(document).ready(function() {
 	$("button").click(function(){
     	$.ajax({
     		type: "POST",
-        	url: "http://localhost:8090/member/login?email=serefcemgenel@gmail.com&password=123456",
+        	url: "http://localhost:8090/member/login?email=person@gmail.com&password=123456",
         	async: false,
         	dataType: "jsonp",
         	success: function(data) {
